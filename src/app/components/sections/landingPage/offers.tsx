@@ -1,4 +1,5 @@
 import ArrowRight from "@/app/components/icons/ArrowRight";
+import Btn from "@/app/components/common/Btn";
 
 const Offers = () => {
     return (
@@ -17,11 +18,9 @@ const Offers = () => {
                             <p>30% Offer</p>
                         </div>
                         <h4 className={'text-4xl'}>Get 30% Off on hotel Booking</h4>
-                        <div
-                            className={'px-4 py-3 rounded-md bg-white text-black w-fit flex gap-2 font-semibold cursor-pointer'}>
-                            <span>Book Your Stay</span>
-                            <ArrowRight className={'rotate-[-30deg] w-4 h-4 '}/>
-                        </div>
+
+                        <Btn title={'Book Now'} size={'px-5 py-3'}/>
+
                     </div>
                 </div>
                 <div className={'w-[45%] relative'}>
@@ -33,11 +32,8 @@ const Offers = () => {
                             <p>35% Offer</p>
                         </div>
                         <h4 className={'text-4xl'}>Get 35% Off on Resort Booking</h4>
-                        <div
-                            className={'px-4 py-3 rounded-md bg-white text-black w-fit flex gap-2 font-semibold cursor-pointer'}>
-                            <span>Book Your Stay</span>
-                            <ArrowRight className={'rotate-[-30deg] w-4 h-4 '}/>
-                        </div>
+                        <Btn title={'Book Now'} size={'px-5 py-3'}/>
+
                     </div>
                 </div>
             </div>

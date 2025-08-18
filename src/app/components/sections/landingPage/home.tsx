@@ -1,6 +1,6 @@
 import Nav from "@/app/components/nav";
-import ArrowRight from "@/app/components/icons/ArrowRight";
 import CheckInForm from "@/app/components/checkInForm";
+import Btn from "@/app/components/common/Btn";
 
 const Home = () => {
 
@@ -20,14 +20,8 @@ const Home = () => {
                     <h1 className={'text-gold'}>Luxury Hotel</h1>
                     <p className={'text-[12px] text-center opacity-80'}> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
                     <div className={'flex gap-6 text-[15px] text-black'}>
-                        <div className={'px-5 py-4 rounded-md bg-gold flex gap-2 font-semibold cursor-pointer'}>
-                            <span>Book Your Stay</span>
-                            <ArrowRight className={'rotate-[-30deg] w-4 h-4 '}/>
-                        </div>
-                        <div className={'px-5 py-4 rounded-md bg-white flex gap-2 font-semibold cursor-pointer'}>
-                            <span>Book Your Stay</span>
-                            <ArrowRight className={'rotate-[-30deg] w-4 h-4 '}/>
-                        </div>
+                        <Btn title={'Explore More'} bg={'bg-gold'}/>
+                        <Btn title={'Our Service'}/>
                     </div>
                 </div>
                 <div className={'absolute z-30 right-0 -bottom-[65px] h-[130px] w-[80vw] lightGreen rounded-l-xl '}>

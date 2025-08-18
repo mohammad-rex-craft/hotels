@@ -1,5 +1,6 @@
 import CheckMarkIcon from "@/app/components/icons/CheckMarkIcon";
 import ArrowRight from "@/app/components/icons/ArrowRight";
+import Btn from "@/app/components/common/Btn";
 
 const Food = () => {
 
@@ -45,10 +46,9 @@ const Food = () => {
                             It has survived not only five centuries, but also the leap into electronic</p>
                     </div>
                 </div>
-                <div className={'px-5 py-4 w-fit rounded-md bg-darkGreen text-white flex gap-2 font-semibold cursor-pointer'}>
-                    <span>Book Your Stay</span>
-                    <ArrowRight className={'rotate-[-30deg] w-4 h-4 '}/>
-                </div>
+
+                <Btn title={'Learn More'}  bg={'bg-darkGreen'} color={'text-white'} size={'px-5 py-4'}/>
+
             </div>
             <div className={'w-[40%] flex justify-between'}>
                 <img className={'w-[49%] h-[80%] object-cover translate-y-10 rounded-2xl'} src={'https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg'} alt={'..'}></img>

@@ -1,4 +1,5 @@
 import ArrowRight from "@/app/components/icons/ArrowRight";
+import Btn from "@/app/components/common/Btn";
 
 const CheckInForm = () => {
 
@@ -61,10 +62,9 @@ const CheckInForm = () => {
             </div>
             <div className="flex flex-col">
                 <label className="text-sm text-white mb-1 opacity-0">.</label>
-                <div className={'px-4 py-3 rounded-md bg-gold text-[14px] flex gap-2 font-semibold cursor-pointer'}>
-                    <span>Book Your Stay</span>
-                    <ArrowRight className={'rotate-[-30deg] w-4 h-4 '}/>
-                </div>
+
+                <Btn title={'Check Now'}  bg={'bg-gold'} size={'px-4 py-3'}/>
+
             </div>
 
         </form>

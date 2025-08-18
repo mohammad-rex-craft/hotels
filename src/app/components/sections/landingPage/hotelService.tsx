@@ -3,6 +3,7 @@ import SportIcon from "@/app/components/icons/SportIcon";
 import SwimmingIcon from "@/app/components/icons/SwimmingIcon";
 import MassageIcon from "@/app/components/icons/MassageIcon";
 import JacuzziIcon from "@/app/components/icons/JacuzziIcon";
+import Btn from "@/app/components/common/Btn";
 
 
 const HotelService = () => {
@@ -21,11 +22,9 @@ const HotelService = () => {
                         industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
                         type and scrambled it to make a type specimen book.
                     </p>
-                    <div
-                        className={'px-5 py-4 w-fit rounded-md bg-darkGreen text-white flex gap-2 font-semibold cursor-pointer'}>
-                        <span>Book Your Stay</span>
-                        <ArrowRight className={'rotate-[-30deg] w-4 h-4 '}/>
-                    </div>
+
+                    <Btn title={'View All'} bg={'bg-darkGreen'} color={'text-white'} size={'px-6 py-3'} />
+
                 </div>
                 <div className={'grid grid-rows-2 grid-cols-2 gap-6 w-1/3'}>
                     <div className={'relative'}>

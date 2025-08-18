@@ -3,6 +3,7 @@ import SearchIcon from "@/app/components/icons/SearchIcon";
 import MenuIcon from "@/app/components/icons/MenuIcon";
 import ArrowRight from "@/app/components/icons/ArrowRight";
 import ArrowDown from "@/app/components/icons/ArrowLeft";
+import Btn from "@/app/components/common/Btn";
 
 
 const Nav = ()=>{
@@ -48,10 +49,8 @@ const Nav = ()=>{
                 <div className={'p-2 icon h-full cursor-pointer'}>
                     <MenuIcon/>
                 </div>
-                <div className={'px-6 py-3 rounded-md bg-gold flex gap-2 font-semibold cursor-pointer'}>
-                    <span>Book Your Stay</span>
-                    <ArrowRight className={'rotate-[-30deg] w-4 h-4 translate-y-1'}/>
-                </div>
+                <Btn bg={'bg-gold'} size={'px-6 py-3'}/>
+
             </div>
         </div>
     )
