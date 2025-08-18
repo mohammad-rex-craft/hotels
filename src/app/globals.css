@@ -26,3 +26,16 @@
   backdrop-filter: blur(3px);
   border: 1px solid rgba(31,143,106,0.225);
 }
+
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  position: relative;
+  flex: 0 0 100%; /* Or your desired slide width */
+  min-width: 0;
+}
