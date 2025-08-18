@@ -48,6 +48,12 @@
 }
 .embla__slide {
   position: relative;
-  flex: 0 0 100%; /* Or your desired slide width */
+  flex: 0 0 100%;
   min-width: 0;
+}
+
+/*/-----------------------------------------------------------------------------------*/
+
+p{
+  font-size: 14px;
 }
