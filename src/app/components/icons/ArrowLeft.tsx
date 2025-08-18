@@ -1,26 +1,13 @@
-import { IconAttributes } from "@/types/IconAttributes";
-
-const ArrowLeft: React.FC<IconAttributes> = ({
-  className = "h-6 w-6",
-  ...props
-}) => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth={1.5}
-      stroke="currentColor"
-      className={className}
-      {...props}
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
-      />
-    </svg>
-  );
+const ArrowDown = ({
+                       className = "h-6 w-4",
+                       ...props
+                   }) => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" className={className} {...props} viewBox="0 0 20 16">
+            <path fill="#fff" fill-rule="non-zero"
+                  d="M13.069 5.157L8.384 9.768a.546.546 0 0 1-.768 0L2.93 5.158a.55.55 0 0 0-.771 0a.53.53 0 0 0 0 .759l4.684 4.61a1.65 1.65 0 0 0 2.312 0l4.684-4.61a.53.53 0 0 0 0-.76a.55.55 0 0 0-.771 0"/>
+        </svg>
+    );
 };
 
-export default ArrowLeft;
+export default ArrowDown;

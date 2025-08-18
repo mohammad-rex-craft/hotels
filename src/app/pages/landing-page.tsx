@@ -1,12 +1,14 @@
 import LineContact from "@/app/components/sections/landingPage/lineContact";
+import Home from "@/app/components/sections/landingPage/home";
 
 
-const LandingPage = ()=>{
+const LandingPage = () => {
 
 
     return (
         <>
-          <LineContact/>
+            <LineContact/>
+            <Home/>
         </>
     )
 }

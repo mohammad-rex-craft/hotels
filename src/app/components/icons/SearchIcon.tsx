@@ -1,16 +1,15 @@
 import React from "react";
-import { IconAttributes } from "@/types/IconAttributes";
 
-const SearchIcon: React.FC<IconAttributes> = ({ className, ...props }) => {
+const SearchIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
       strokeWidth={1.5}
-      stroke="#013567"
-      className={className}
-      {...props}
+      stroke="#ffff"
+      width={'22'}
+      height={'22'}
     >
       <path
         strokeLinecap="round"

@@ -25,7 +25,7 @@ const LineContact = () => {
                     <span>+20 1094221030</span>
                 </div>
             </div>
-            <div className={'flex gap-6'}>
+            <div className={'flex gap-6 '}>
                 <FacebookIcon/>
                 <InstaIcon/>
                 <TwiterIcon/>
