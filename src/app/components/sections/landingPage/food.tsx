@@ -6,7 +6,7 @@ const Food = () => {
 
     return (
 
-        <div className={'w-full h-screen flex gap-12 justify-center items-center bg-gray-100'}>
+        <div className={'w-full h-[80vh] flex gap-12 justify-center items-center bg-gray-100'}>
             <div className={'w-[40%] flex flex-col gap-4'}>
                 <div className={'bg-white w-fit py-1 px-2 rounded-md text-darkGreen font-bold'}>
                     <p>FOOD & DRINK</p>

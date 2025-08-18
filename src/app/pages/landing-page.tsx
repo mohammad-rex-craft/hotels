@@ -5,6 +5,7 @@ import RoomType from "@/app/components/sections/landingPage/roomType";
 import HotelService from "@/app/components/sections/landingPage/hotelService";
 import Video from "@/app/components/sections/landingPage/video";
 import Food from "@/app/components/sections/landingPage/food";
+import Offers from "@/app/components/sections/landingPage/offers";
 
 
 const LandingPage = () => {
@@ -19,6 +20,7 @@ const LandingPage = () => {
             <HotelService/>
             <Video/>
             <Food/>
+            <Offers/>
         </>
     )
 }
