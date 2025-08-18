@@ -48,7 +48,7 @@ const Nav = ()=>{
                 <div className={'p-2 icon h-full cursor-pointer'}>
                     <MenuIcon/>
                 </div>
-                <div className={'px-6 py-3 rounded-xl bg-gold flex gap-2 font-semibold cursor-pointer'}>
+                <div className={'px-6 py-3 rounded-md bg-gold flex gap-2 font-semibold cursor-pointer'}>
                     <span>Book Your Stay</span>
                     <ArrowRight className={'rotate-[-30deg] w-4 h-4 translate-y-1'}/>
                 </div>
