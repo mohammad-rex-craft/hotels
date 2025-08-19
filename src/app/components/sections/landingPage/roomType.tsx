@@ -96,7 +96,7 @@ const RoomType = () => {
     ];
 
     return (
-        <section id={'room'} className="w-full mt-5 md:mt-0 h-[75vh] md:h-[80vh] lg:h-screen py-12 sm:py-16 md:py-20 flex flex-col gap-8 sm:gap-10 md:gap-12 justify-center items-center bg-lightGreen">
+        <section id={'room'} className="w-full mt-10 md:mt-0 h-[75vh] md:h-[80vh] lg:h-screen py-12 sm:py-16 md:py-20 flex flex-col gap-8 sm:gap-10 md:gap-12 justify-center items-center bg-lightGreen">
             <div className={'flex flex-col gap-3 sm:gap-4 justify-center items-center w-full px-4 sm:px-6 md:px-8 lg:w-4/5 xl:w-3/5'}>
                 <div className={'bg-white w-fit py-1 px-2 sm:px-3 rounded-md text-darkGreen font-bold'}>
                     <p className="text-xs sm:text-sm md:text-base">ROOM TYPE</p>

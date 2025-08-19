@@ -6,7 +6,6 @@ import MenuIcon from "@/app/components/icons/MenuIcon";
 import Close from "@/app/components/icons/Close";
 import ArrowDown from "@/app/components/icons/ArrowLeft";
 import Btn from "@/app/components/common/Btn";
-import {CloseEvent} from "undici-types";
 
 const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -90,30 +89,18 @@ const Nav = () => {
             </div>
 
             {isMenuOpen && (
-                <div className="md:hidden fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm z-60 animate-fadeIn">
+                <div className="md:hidden fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm z-50 animate-fadeIn">
                     <div 
                         ref={menuRef}
-                        className="fixed top-20 left-4 right-4 bg-white shadow-2xl rounded-2xl z-[10000] animate-slideDown border border-gray-100"
+                        className="fixed top-16 left-2 right-2 bg-white shadow-2xl rounded-2xl z-50 animate-slideDown border border-gray-100 max-h-[80vh] overflow-y-auto"
                     >
-                        <div className="flex flex-col py-6">
-                            <div className={'flex flex-col gap-1 cursor-pointer px-8 py-4 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-300 rounded-xl mx-4 hover:shadow-md'}>
-                                <Link href={'#'} className="text-gray-800 font-semibold text-[16px] hover:text-blue-600 transition-colors duration-300" onClick={closeMenu}>Home</Link>
-                            </div>
-                            <div className={'flex flex-col gap-1 cursor-pointer px-8 py-4 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-300 rounded-xl mx-4 hover:shadow-md'}>
-                                <Link href={'#'} className="text-gray-800 font-semibold text-[16px] hover:text-blue-600 transition-colors duration-300" onClick={closeMenu}>Pages</Link>
-                            </div>
-                            <div className={'flex flex-col gap-1 cursor-pointer px-8 py-4 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-300 rounded-xl mx-4 hover:shadow-md'}>
-                                <Link href={'#'} className="text-gray-800 font-semibold text-[16px] hover:text-blue-600 transition-colors duration-300" onClick={closeMenu}>Rooms & Sultes</Link>
-                            </div>
-                            <div className={'flex flex-col gap-1 cursor-pointer px-8 py-4 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-300 rounded-xl mx-4 hover:shadow-md'}>
-                                <Link href={'#'} className="text-gray-800 font-semibold text-[16px] hover:text-blue-600 transition-colors duration-300" onClick={closeMenu}>Services</Link>
-                            </div>
-                            <div className={'flex flex-col gap-1 cursor-pointer px-8 py-4 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-300 rounded-xl mx-4 hover:shadow-md'}>
-                                <Link href={'#'} className="text-gray-800 font-semibold text-[16px] hover:text-blue-600 transition-colors duration-300" onClick={closeMenu}>Blog</Link>
-                            </div>
-                            <div className={'flex flex-col gap-1 cursor-pointer px-8 py-4 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-300 rounded-xl mx-4 hover:shadow-md'}>
-                                <Link href={'#'} className="text-gray-800 font-semibold text-[16px] hover:text-blue-600 transition-colors duration-300" onClick={closeMenu}>Contact</Link>
-                            </div>
+                        <div className="flex flex-col gap-4 p-4">
+                            <Link href={'#home'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Home</Link>
+                            <Link href={'#about'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Pages</Link>
+                            <Link href={'#room'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Rooms & Sultes</Link>
+                            <Link href={'#service'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Services</Link>
+                            <Link href={'#blog'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Blog</Link>
+                            <Link href={'#contact'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Contact</Link>
                         </div>
                     </div>
                 </div>
