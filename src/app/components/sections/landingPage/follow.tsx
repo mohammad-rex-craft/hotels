@@ -32,7 +32,7 @@ const Follow = ()=>{
     ];
 
     return (
-        <div className={'follow-section w-full h-[18vh] flex relative overflow-hidden'}>
+        <section className={'follow-section w-full h-[18vh] flex relative overflow-hidden'}>
             {images.map((src, index) => (
                 <img 
                     key={index}
@@ -50,7 +50,7 @@ const Follow = ()=>{
                 <h4 className="hover:text-gold transition-colors duration-300">Follow Our</h4>
                 <h4 className="hover:text-gold transition-colors duration-300">Instagram</h4>
             </div>
-        </div>
+        </section>
     )
 }
 

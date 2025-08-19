@@ -6,7 +6,7 @@ import Btn from "@/app/components/common/Btn";
 
 const HotelService = () => {
     return (
-        <div className={'w-full min-h-[60vh] md:min-h-[70vh] lg:min-h-[80vh] bg-gray-100 flex flex-col justify-center gap-6 sm:gap-8 md:gap-10 items-center py-8 sm:py-12 md:py-16'}>
+        <section id={'service'} className={'w-full min-h-[60vh] md:min-h-[70vh] lg:min-h-[80vh] bg-gray-100 flex flex-col justify-center gap-6 sm:gap-8 md:gap-10 items-center py-8 sm:py-12 md:py-16'}>
             <div className={'flex flex-col lg:flex-row gap-8 sm:gap-10 lg:gap-12 w-full justify-center items-center px-4 sm:px-6 md:px-8'}>
                 <div className={'flex flex-col gap-4 sm:gap-6 w-full lg:w-1/2 xl:w-1/3'}>
                     <div className={'bg-white w-fit py-1 px-2 sm:px-3 rounded-md text-darkGreen font-bold hover:scale-110 transition-transform duration-300'}>
@@ -64,7 +64,7 @@ const HotelService = () => {
                 <span className="hidden sm:inline text-gray-500">or</span>
                 <p className="text-gray-700 hover:text-gray-900 transition-colors duration-300">Email: <span className="font-semibold text-darkGreen hover:text-gold transition-colors duration-300">mohammad123alhalabi123@gmail.com</span></p>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -10,7 +10,7 @@ const LineContact = () => {
 
 
     return (
-        <div className={'w-full h-12 bg-darkGreen flex justify-between items-center px-4 md:px-10 text-white text-[6px] md:text-[9px] lg:text-[12px]'}>
+        <section className={'w-full h-12 bg-darkGreen flex justify-between items-center px-4 md:px-10 text-white text-[6px] md:text-[9px] lg:text-[12px]'}>
             <div className="flex gap-6 ">
                 <div className={'flex gap-2 '}>
                     <LocationIcon />
@@ -30,7 +30,7 @@ const LineContact = () => {
                 <InstaIcon/>
                 <TwiterIcon/>
             </div>
-        </div>
+        </section>
     )
 }
 

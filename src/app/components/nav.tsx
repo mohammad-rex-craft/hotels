@@ -50,27 +50,27 @@ const Nav = () => {
             
             <div className={'hidden md:flex gap-4 text-white font-semibold text-[14px]'}>
                 <div className={'flex gap-1 cursor-pointer'}>
-                    <Link href={'#'}>Home</Link>
+                    <Link href={'#home'}>Home</Link>
                     <ArrowDown/>
                 </div>
                 <div className={'flex gap-1 cursor-pointer'}>
-                    <Link href={'#'}>Pages</Link>
+                    <Link href={'#about'}>Pages</Link>
                     <ArrowDown/>
                 </div>
                 <div className={'flex gap-1 cursor-pointer'}>
-                    <Link href={'#'}>Rooms & Sultes</Link>
+                    <Link href={'#room'}>Rooms & Sultes</Link>
                     <ArrowDown/>
                 </div>
                 <div className={'flex gap-1 cursor-pointer'}>
-                    <Link href={'#'}>Services</Link>
+                    <Link href={'#service'}>Services</Link>
                     <ArrowDown/>
                 </div>
                 <div className={'flex gap-1 cursor-pointer'}>
-                    <Link href={'#'}>Blog</Link>
+                    <Link href={'#blog'}>Blog</Link>
                     <ArrowDown/>
                 </div>
                 <div className={'flex gap-1 cursor-pointer'}>
-                    <Link href={'#'}>Contact</Link>
+                    <Link href={'#contact'}>Contact</Link>
                     <ArrowDown/>
                 </div>
             </div>

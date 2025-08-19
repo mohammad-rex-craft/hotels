@@ -6,7 +6,7 @@ const Video = ()=>{
 
 
     return (
-        <div className={'w-full h-[40vh]'}>
+        <section className={'w-full h-[40vh]'}>
             <iframe
                 className={'w-full h-full'}
                 src="https://www.youtube.com/embed/qemqQHaeCYo"
@@ -16,7 +16,7 @@ const Video = ()=>{
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
             ></iframe>
-        </div>
+        </section>
     )
 }
 

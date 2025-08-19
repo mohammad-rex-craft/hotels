@@ -28,7 +28,7 @@ const Staff = () => {
     ]
 
     return (
-        <div className={'w-full h-[40vh] md:h-[60vh] lg:h-[80vh] flex flex-col justify-between '}>
+        <section id={'staff'} className={'w-full h-[40vh] md:h-[60vh] lg:h-[80vh] flex flex-col justify-between '}>
             <div className={'flex flex-col w-full bg-darkGreen gap-3 sm:gap-4  items-center pt-10 lg:pt-16 h-[65%] lg:h-[60%] relative'}>
                 <div className={'bg-white w-fit py-1 px-2 sm:px-3 rounded-md text-darkGreen font-bold'}>
                     <p className="text-xs sm:text-sm md:text-base">FIXYLAND STAFF</p>
@@ -103,7 +103,7 @@ const Staff = () => {
                     </g>
                 </svg>
             </div>
-        </div>
+        </section>
     )
 }
 

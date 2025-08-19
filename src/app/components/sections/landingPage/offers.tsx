@@ -24,7 +24,7 @@ const Offers = () => {
     }, []);
 
     return (
-        <div className={'offers-section w-full min-h-[60vh] md:min-h-[70vh] lg:min-h-[80vh] bg-lightGreen flex flex-col gap-6 sm:gap-8 md:gap-10 justify-center items-center py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8'}>
+        <section className={'offers-section w-full min-h-[60vh] md:min-h-[70vh] lg:min-h-[80vh] bg-lightGreen flex flex-col gap-6 sm:gap-8 md:gap-10 justify-center items-center py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8'}>
             <div className={`bg-white w-fit py-1 px-2 sm:px-3 rounded-md text-darkGreen font-bold hover:scale-110 transition-transform duration-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
                 <p className="text-xs sm:text-sm md:text-base">SPECIAL OFFERS</p>
             </div>
@@ -57,7 +57,7 @@ const Offers = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

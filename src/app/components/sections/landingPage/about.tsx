@@ -3,7 +3,7 @@ import Tapes from "@/app/components/tapes";
 
 const About = () => {
     return (
-        <div className={'bg-lightGreen w-full h-[70vh] md:h-[80vh] flex justify-center items-center overflow-x-clip'}>
+        <section id={'about'} className={'bg-lightGreen w-full h-[70vh] md:h-[80vh] flex justify-center items-center overflow-x-clip'}>
             <div className={'flex gap-8 md:gap-16 lg:gap-36 w-[95%] md:w-[80%] lg:w-[65%]'}>
                 <div className={'w-[35vw] lg:w-[45vw] h-[48vh] md:h-[55vh] relative'}>
                     <div className={'absolute top-1/2 -right-[15%] lg:block hidden animate-bounce'}>
@@ -100,7 +100,7 @@ const About = () => {
             <div className={'absolute self-end w-full overflow-x-clip hover:translate-y-2 transition-transform duration-500'}>
                 <Tapes/>
             </div>
-        </div>
+        </section>
     )
 }
 

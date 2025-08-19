@@ -14,7 +14,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div className={'w-full relative overflow-x-clip '}>
+        <section id={'home'} className={'w-full relative overflow-x-clip '}>
             <div className={'w-full h-[80vh] flex justify-center items-center'}>
                 <div className={`absolute w-full h-full z-10 transition-opacity duration-1000 ease-in-out ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
                     <img src={'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg'} className={'w-full h-full object-cover'} alt={'..'}></img>
@@ -39,7 +39,7 @@ const Home = () => {
                     <CheckInForm openForm={openForm} setOpenForm={setOpenForm}/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

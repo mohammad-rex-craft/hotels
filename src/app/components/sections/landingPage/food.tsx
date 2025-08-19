@@ -25,7 +25,7 @@ const Food = () => {
     }, []);
 
     return (
-        <div className={'food-section w-full min-h-[80vh] flex flex-col lg:flex-row gap-8 sm:gap-10 lg:gap-12 justify-center items-center bg-gray-100 py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8'}>
+        <section className={'food-section w-full min-h-[80vh] flex flex-col lg:flex-row gap-8 sm:gap-10 lg:gap-12 justify-center items-center bg-gray-100 py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8'}>
             <div className={`w-full lg:w-[45%] xl:w-[40%] flex flex-col gap-4 sm:gap-6 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}>
                 <div className={'bg-white w-fit py-1 px-2 sm:px-3 rounded-md text-darkGreen font-bold hover:scale-110 transition-transform duration-300'}>
                     <p className="text-xs sm:text-sm md:text-base">FOOD & DRINK</p>
@@ -84,7 +84,7 @@ const Food = () => {
                     alt={'Delicious Food 2'}
                 />
             </div>
-        </div>
+        </section>
     )
 }
 

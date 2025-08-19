@@ -67,7 +67,7 @@ const Commint = () => {
 	);
 
 	return (
-		<div className={"commint-section w-full h-[50vh] md:h-[70vh] bg-gray-100 flex justify-center items-center"}>
+		<section className={"commint-section w-full h-[50vh] md:h-[70vh] bg-gray-100 flex justify-center items-center"}>
 			<div className="w-[85%] flex justify-between">
 				<div className={`w-[45%] hidden md:block relative transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}>
 					<img
@@ -124,7 +124,7 @@ const Commint = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 
