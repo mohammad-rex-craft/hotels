@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from "react";
 import SearchIcon from "@/app/components/icons/SearchIcon";
 import MenuIcon from "@/app/components/icons/MenuIcon";
 import Close from "@/app/components/icons/Close";
-import ArrowRight from "@/app/components/icons/ArrowRight";
 import ArrowDown from "@/app/components/icons/ArrowLeft";
 import Btn from "@/app/components/common/Btn";
 import {CloseEvent} from "undici-types";

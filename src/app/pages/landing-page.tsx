@@ -8,6 +8,7 @@ import Food from "@/app/components/sections/landingPage/food";
 import Offers from "@/app/components/sections/landingPage/offers";
 import Follow from "@/app/components/sections/landingPage/follow";
 import Footer from "@/app/components/sections/landingPage/footer";
+import Commint from "@/app/components/sections/landingPage/commint";
 
 
 const LandingPage = () => {
@@ -23,6 +24,7 @@ const LandingPage = () => {
             <Video/>
             <Food/>
             <Offers/>
+            <Commint/>
             <Follow/>
             <Footer/>
         </>
