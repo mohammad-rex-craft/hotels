@@ -5,50 +5,50 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer id={'contact'} className={'w-full min-h-[40vh] md:h-[40vh] bg-[#191a19] text-white flex justify-center items-center py-8 md:py-0'}>
-            <div className={'w-[95%] md:w-[85%] gap-6 md:gap-8 flex flex-col md:flex-row justify-between'}>
-                <div className={'flex flex-col gap-4 justify-between'}>
-                    <div className={'flex gap-3 md:gap-4 items-center'}>
-                        <img className={'w-16 h-16 md:w-20 md:h-20'} src={'/logo.jpg'} alt={'..'}></img>
-                        <h2 className={'text-2xl md:text-3xl font-bold'}>Fixyland</h2>
+        <footer id={'contact'} className={'w-full min-h-[40vh] md:h-[40vh] bg-[#191a19] text-white flex justify-center items-center py-6 md:py-0'}>
+            <div className={'w-[95%] md:w-[85%] gap-4 md:gap-8 flex flex-col md:flex-row justify-between'}>
+                <div className={'flex flex-col gap-3 md:gap-4 justify-between'}>
+                    <div className={'flex gap-2 md:gap-4 items-center'}>
+                        <img className={'w-12 h-12 md:w-20 md:h-20'} src={'/logo.jpg'} alt={'..'}></img>
+                        <h2 className={'text-xl md:text-3xl font-bold'}>Fixyland</h2>
                     </div>
-                    <p className={'text-sm md:text-base'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    <p className={'text-xs md:text-base'}>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                    <div className={'flex gap-3 md:gap-4 w-fit'}>
-                        <Link href={'#'} className={'p-3 md:p-4 rounded-xl bg-[#282928] w-fit'}>
+                    <div className={'flex gap-2 md:gap-4 w-fit'}>
+                        <Link href={'#'} className={'p-2 md:p-4 rounded-xl bg-[#282928] w-fit'}>
                             <FacebookIcon/>
                         </Link>
-                        <Link href={'#'} className={'p-3 md:p-4 rounded-xl bg-[#282928] w-fit'}>
+                        <Link href={'#'} className={'p-2 md:p-4 rounded-xl bg-[#282928] w-fit'}>
                             <InstaIcon/>
                         </Link>
-                        <Link href={'#'} className={'p-3 md:p-4 rounded-xl bg-[#282928] w-fit'}>
+                        <Link href={'#'} className={'p-2 md:p-4 rounded-xl bg-[#282928] w-fit'}>
                             <TwiterIcon/>
                         </Link>
                     </div>
                 </div>
                 
-                <div className={'flex flex-col gap-3 md:gap-4 justify-between'}>
-                    <h4 className={'text-2xl md:text-3xl font-semibold'}>EXPLORE</h4>
-                    <Link className={'text-[13px] md:text-[14px]'} href={'#'}>About</Link>
-                    <Link className={'text-[13px] md:text-[14px]'} href={'#'}>Price</Link>
-                    <Link className={'text-[13px] md:text-[14px]'} href={'#'}>Hostel Stuff</Link>
-                    <Link className={'text-[13px] md:text-[14px]'} href={'#'}>Lac</Link>
-                    <Link className={'text-[13px] md:text-[14px]'} href={'#'}>Contact</Link>
+                <div className={'flex flex-col gap-2 md:gap-4 justify-between'}>
+                    <h4 className={'text-lg md:text-3xl font-semibold'}>EXPLORE</h4>
+                    <Link className={'text-[11px] md:text-[14px]'} href={'#'}>About</Link>
+                    <Link className={'text-[11px] md:text-[14px]'} href={'#'}>Price</Link>
+                    <Link className={'text-[11px] md:text-[14px]'} href={'#'}>Hostel Stuff</Link>
+                    <Link className={'text-[11px] md:text-[14px]'} href={'#'}>Lac</Link>
+                    <Link className={'text-[11px] md:text-[14px]'} href={'#'}>Contact</Link>
                 </div>
                 
-                <div className={'flex flex-col gap-3 md:gap-4 justify-between'}>
-                    <h4 className={'text-2xl md:text-3xl font-semibold'}>Contact</h4>
-                    <p className={'text-sm md:text-base'}>is simply dummy text of the printing and typwhen an unknown printer took a galley</p>
-                    <p className={'text-lg md:text-xl font-bold'}>+201094221030</p>
-                    <p className={'text-lg md:text-xl font-bold'}>mohammad@gmail.com</p>
+                <div className={'flex flex-col gap-2 md:gap-4 justify-between'}>
+                    <h4 className={'text-lg md:text-3xl font-semibold'}>Contact</h4>
+                    <p className={'text-xs md:text-base'}>is simply dummy text of the printing and typwhen an unknown printer took a galley</p>
+                    <p className={'text-base md:text-xl font-bold'}>+201094221030</p>
+                    <p className={'text-base md:text-xl font-bold'}>mohammad@gmail.com</p>
                 </div>
                 
-                <div className={'w-full md:w-[40%] h-auto px-4 md:px-6 py-6 md:py-8 rounded-2xl bg-[#282928] flex flex-col gap-4 md:gap-6'}>
-                    <h4 className={'text-2xl md:text-3xl font-semibold'}>NEWSLETTER</h4>
-                    <input type={'text'} className={'bg-transparent border-b-2 border-white text-[12px] md:text-[12px]'} placeholder={'EX : mohammad@gmail.com'}></input>
+                <div className={'w-full md:w-[40%] h-auto px-3 md:px-6 py-4 md:py-8 rounded-2xl bg-[#282928] flex flex-col gap-3 md:gap-6'}>
+                    <h4 className={'text-lg md:text-3xl font-semibold'}>NEWSLETTER</h4>
+                    <input type={'text'} className={'bg-transparent border-b-2 border-white text-[11px] md:text-[12px]'} placeholder={'EX : mohammad@gmail.com'}></input>
                     <div className="flex items-center">
-                        <input id="link-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                        <label htmlFor="link-checkbox" className="ms-2 text-xs md:text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline">terms and conditions</a>.</label>
+                        <input id="link-checkbox" type="checkbox" value="" className="w-3 h-3 md:w-4 md:h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                        <label htmlFor="link-checkbox" className="ms-2 text-[10px] md:text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline">terms and conditions</a>.</label>
                     </div>
                 </div>
             </div>

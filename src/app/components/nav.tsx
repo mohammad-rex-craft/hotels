@@ -41,7 +41,7 @@ const Nav = () => {
     }, [isMenuOpen]);
 
     return (
-        <div className={'w-full h-20 flex justify-between items-center z-30 relative pr-2 md:pr-6 lg:pr-8'}>
+        <div className={'w-full h-16 md:h-20 flex justify-between items-center z-30 relative pr-2 md:pr-6 lg:pr-8'}>
             <div className="relative bg-white w-40 md:w-80 h-full flex gap-2 justify-center items-center pr-4 shadow-md py-1">
                 <div className="absolute top-0 -right-5 w-10 md:w-16 h-full bg-white transform skew-x-[-20deg] "></div>
                 <img src={'/logo.jpg'} alt={'..'} className={'h-full'}></img>
