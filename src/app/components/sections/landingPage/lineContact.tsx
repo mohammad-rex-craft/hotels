@@ -11,14 +11,14 @@ const LineContact = () => {
 
     return (
         <section className={'w-full h-12 bg-darkGreen flex justify-between items-center px-4 md:px-10 text-white text-[6px] md:text-[9px] lg:text-[12px]'}>
-            <div className="flex gap-6 ">
+            <div className="flex gap-2 md:gap-6 ">
                 <div className={'flex gap-2 '}>
                     <LocationIcon />
                     <span>Egypt ,Ciro 218</span>
                 </div>
                 <div className={'flex gap-2 items-center'}>
                     <MailIcon/>
-                    <span>mohammad123alhalabi123@gmail.com</span>
+                    <span>mohammad123@gmail.com</span>
                 </div>
                 <div className={'flex gap-2 items-center'}>
                     <PhoneIcon/>
