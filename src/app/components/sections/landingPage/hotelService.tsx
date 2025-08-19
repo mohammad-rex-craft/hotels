@@ -24,7 +24,7 @@ const HotelService = () => {
                 </div>
                 <div className={'grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 w-full lg:w-1/2 xl:w-1/3'}>
                     <div className={'relative h-32 sm:h-40 md:h-48 group hover:scale-105 transition-all duration-500 cursor-pointer'}>
-                        <img src={'/home.jpg'} className={'w-full h-full rounded-2xl object-cover group-hover:scale-110 transition-transform duration-500'} alt={'Fitness Center'}></img>
+                        <img src={'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg'} className={'w-full h-full rounded-2xl object-cover group-hover:scale-110 transition-transform duration-500'} alt={'Fitness Center'}></img>
                         <div className={'absolute rounded-2xl top-0 left-0 darkGreenGlass w-full h-full group-hover:bg-opacity-80 transition-all duration-500'}></div>
                         <div
                             className={'p-3 sm:p-4 shadow-xl rounded-2xl absolute top-0 left-0 w-full h-full z-30 flex flex-col text-white group-hover:shadow-2xl transition-all duration-500'}>
