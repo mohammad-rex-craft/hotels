@@ -22,7 +22,7 @@ const testimonials = [
 	},
 	{
 		text:
-			"Great service and wonderful staff. Highly recommended for a relaxing stay!",
+			"Great service and wonderful staff.tsx. Highly recommended for a relaxing stay!",
 		name: "ali yousef",
 		role: "Visitor",
 		avatar: "/man.jpg",

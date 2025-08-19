@@ -9,6 +9,7 @@ import Offers from "@/app/components/sections/landingPage/offers";
 import Follow from "@/app/components/sections/landingPage/follow";
 import Footer from "@/app/components/sections/landingPage/footer";
 import Commint from "@/app/components/sections/landingPage/commint";
+import Staff from "@/app/components/sections/landingPage/staff";
 
 
 const LandingPage = () => {
@@ -25,6 +26,7 @@ const LandingPage = () => {
             <Food/>
             <Offers/>
             <Commint/>
+            <Staff/>
             <Follow/>
             <Footer/>
         </>
