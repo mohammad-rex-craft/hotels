@@ -75,7 +75,7 @@ const Nav = () => {
                 </div>
             </div>
             
-            <div className={'flex gap-4 items-center'}>
+            <div className={'flex gap-2 md:gap-4 items-center'}>
                 <div className={'p-2 icon h-full cursor-pointer'}>
                     <SearchIcon/>
                 </div>
@@ -86,7 +86,7 @@ const Nav = () => {
                 >
                     {isMenuOpen ? <Close /> : <MenuIcon/>}
                 </div>
-                <Btn bg={'bg-gold'} size={' px-2 py-1 md:px-5 md:py-2  lg:px-6 lg:py-3'} dis={true}/>
+                <Btn bg={'bg-gold'} size={'hidden md:block px-2 py-1 md:px-5 md:py-2  lg:px-6 lg:py-3'} dis={true}/>
             </div>
 
             {isMenuOpen && (
