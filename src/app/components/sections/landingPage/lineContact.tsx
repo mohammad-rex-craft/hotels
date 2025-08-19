@@ -10,10 +10,10 @@ const LineContact = () => {
 
 
     return (
-        <div className={'w-full h-12 bg-darkGreen flex justify-between items-center px-4 md:px-10 text-white text-[8px] md:text-[11px] lg:text-[13px]'}>
+        <div className={'w-full h-12 bg-darkGreen flex justify-between items-center px-4 md:px-10 text-white text-[6px] md:text-[9px] lg:text-[12px]'}>
             <div className="flex gap-6 ">
                 <div className={'flex gap-2 '}>
-                    <LocationIcon/>
+                    <LocationIcon />
                     <span>Egypt ,Ciro 218</span>
                 </div>
                 <div className={'flex gap-2 items-center'}>

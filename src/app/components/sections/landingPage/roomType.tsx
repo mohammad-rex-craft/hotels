@@ -4,7 +4,6 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import RoomCard from "@/app/components/roomCard";
 
-
 const RoomType = () => {
     const [emblaRef] = useEmblaCarousel(
         {
@@ -97,19 +96,19 @@ const RoomType = () => {
     ];
 
     return (
-        <section className="w-full h-screen flex flex-col gap-12 justify-center items-center bg-lightGreen">
-            <div className={'flex flex-col gap-2 justify-center items-center w-1/3'}>
-                <div className={'bg-white w-fit py-1 px-2 rounded-md text-darkGreen font-bold'}>
-                    <p>ROOM TYPE</p>
+        <section className="w-full h-[75vh] md:h-[80vh] lg:h-screen py-12 sm:py-16 md:py-20 flex flex-col gap-8 sm:gap-10 md:gap-12 justify-center items-center bg-lightGreen">
+            <div className={'flex flex-col gap-3 sm:gap-4 justify-center items-center w-full px-4 sm:px-6 md:px-8 lg:w-4/5 xl:w-3/5'}>
+                <div className={'bg-white w-fit py-1 px-2 sm:px-3 rounded-md text-darkGreen font-bold'}>
+                    <p className="text-xs sm:text-sm md:text-base">ROOM TYPE</p>
                 </div>
-                <h2 className={'text-4xl font-bold text-center'}>The Best Luxury Rooms And Suites</h2>
+                <h2 className={'text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center leading-tight'}>The Best Luxury Rooms And Suites</h2>
             </div>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-4 sm:px-6 md:px-8">
                 <div className="embla" ref={emblaRef}>
                     <div className="embla__container">
                         {roomsData.map(room => (
                             <div key={room.id}
-                                 className="embla__slide flex-[0_0_90%] pl-4 sm:flex-[0_0_45%] md:flex-[0_0_30%]">
+                                 className="embla__slide flex-[0_0_100%] sm:flex-[0_0_80%] md:flex-[0_0_60%] lg:flex-[0_0_45%] xl:flex-[0_0_35%] pl-2 sm:pl-3 md:pl-4">
                                 <RoomCard {...room} />
                             </div>
                         ))}

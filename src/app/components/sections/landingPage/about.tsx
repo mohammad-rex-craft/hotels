@@ -5,10 +5,10 @@ const About = () => {
 
 
     return (
-        <div className={'bg-lightGreen w-full h-[80vh] flex justify-center items-center'}>
-            <div className={'flex gap-36 w-[65%]'}>
-                <div className={'w-[45vw] h-[55vh] relative'}>
-                    <div className={'absolute top-1/2 -right-[15%] '}>
+        <div className={'bg-lightGreen w-full h-[70vh] md:h-[80vh] flex justify-center items-center overflow-x-clip'}>
+            <div className={'flex gap-8 md:gap-16 lg:gap-36 w-[95%] md:w-[80%] lg:w-[65%]'}>
+                <div className={'w-[35vw] lg:w-[45vw] h-[48vh] md:h-[55vh] relative'}>
+                    <div className={'absolute top-1/2 -right-[15%] lg:block hidden'}>
                         <div
                             className="relative flex h-36 w-36 items-center justify-center rounded-full bg-gray-100 bg-opacity-75">
 
@@ -51,12 +51,12 @@ const About = () => {
                     </div>
                     <img src={'/about.jpg'} className={'w-full h-full rounded-2xl  object-cover'} alt={'..'}></img>
                 </div>
-                <div className={'flex flex-col gap-6 w-[60vw]'}>
+                <div className={'flex flex-col gap-6  w-[50vw] lg:w-[60vw]'}>
                     <div className={'bg-white w-fit py-1 px-2 rounded-md text-darkGreen font-bold'}>
                         <p>ABOUT FIXYLAND</p>
                     </div>
-                    <h2 className={'text-4xl font-bold'}>World Class Luxury Hotel and Resort Near City</h2>
-                    <p className={'text-[14px]'}>
+                    <h2 className={'text-2xl md:text-3xl lg:text-4xl font-bold'}>World Class Luxury Hotel and Resort Near City</h2>
+                    <p >
                         is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                         industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
                         type and scrambled it to make a type specimen book. It has survived not only five centuries, but
@@ -92,13 +92,13 @@ const About = () => {
                     <div className={'flex gap-4'}>
                         <img src={'/man.jpg'} className={'w-16 h-16 rounded-full object-cover'} alt={'..'}></img>
                         <div className={'flex flex-col justify-center '}>
-                            <h4 className={'font-bold'}>mohammad al halabi</h4>
+                            <p className={'font-bold'}>mohammad al halabi</p>
                             <p>CEO</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className={'absolute self-end w-full'}>
+            <div className={'absolute self-end w-full overflow-x-clip'}>
                 <Tapes/>
             </div>
         </div>

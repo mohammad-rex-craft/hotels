@@ -1,4 +1,4 @@
-const InstaIcon = ({classname = 'w-5 h-5 stroke-white',...props}) => {
+const InstaIcon = ({classname = 'md:w-5 md:h-5 w-3 h-3 stroke-white',...props}) => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" className={classname} {...props} viewBox="0 0 24 24">
             <g fill="none">

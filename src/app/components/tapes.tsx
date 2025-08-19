@@ -24,13 +24,13 @@ const Tapes = () => {
     );
     return (
         <div className="relative w-full  ">
-            <div className="absolute h-[80px] -rotate-[1.8deg] flex w-full select-none items-center overflow-hidden bg-gray-900 py-3">
+            <div className="absolute w-[110%] -left-3 h-[80px] -rotate-[1.8deg] flex  select-none items-center overflow-hidden bg-gray-900 py-3">
                 <div className="flex w-max shrink-0 animate-marquee-reverse">
                     <MarqueeContent />
                     <MarqueeContent />
                 </div>
             </div>
-                <div className="absolute h-[80px] rotate-[1.8deg] flex w-full select-none items-center overflow-hidden bg-teal-600 py-3">
+                <div className="absolute  w-[110%] -left-3 h-[80px] rotate-[1.8deg] flex select-none items-center overflow-hidden bg-teal-600 py-3">
                     <div className="flex w-max shrink-0 animate-marquee">
                         <MarqueeContent />
                         <MarqueeContent />

@@ -1,7 +1,6 @@
 import React from "react";
-import { IconAttributes } from "@/types/IconAttributes";
 
-const Close: React.FC<IconAttributes> = ({ className, ...props }) => {
+const Close = ({ className="w-5 h-5", ...props }) => {
   return (
     <svg
       className={className}
