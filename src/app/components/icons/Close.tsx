@@ -1,6 +1,6 @@
 import React from "react";
 
-const Close = ({ className="w-5 h-5", ...props }) => {
+const Close = ({ className="w-5 h-5 stroke-white", ...props }) => {
   return (
     <svg
       className={className}

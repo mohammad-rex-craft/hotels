@@ -88,23 +88,6 @@ const Nav = () => {
                 <Btn bg={'bg-gold'} size={'hidden md:block px-2 py-1 md:px-5 md:py-2  lg:px-6 lg:py-3'} dis={true}/>
             </div>
 
-            {isMenuOpen && (
-                <div className="md:hidden fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm z-50 animate-fadeIn">
-                    <div 
-                        ref={menuRef}
-                        className="fixed top-16 left-2 right-2 bg-white shadow-2xl rounded-2xl z-50 animate-slideDown border border-gray-100 max-h-[80vh] overflow-y-auto"
-                    >
-                        <div className="flex flex-col gap-4 p-4">
-                            <Link href={'#home'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Home</Link>
-                            <Link href={'#about'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Pages</Link>
-                            <Link href={'#room'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Rooms & Sultes</Link>
-                            <Link href={'#service'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Services</Link>
-                            <Link href={'#blog'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Blog</Link>
-                            <Link href={'#contact'} className="text-gray-800 font-semibold text-[14px] hover:text-blue-600 transition-colors duration-300 py-2" onClick={closeMenu}>Contact</Link>
-                        </div>
-                    </div>
-                </div>
-            )}
         </div>
     )
 }
